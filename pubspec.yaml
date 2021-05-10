@@ -21,6 +21,9 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  dio: ^3.0.10
+  carousel_pro:
+  get:
   nice_button: ^0.1.7
   flutter:
     sdk: flutter
@@ -29,11 +32,27 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  audioplayers: 0.10.0
+  http: ^0.12.0+4
+  flutter_svg: 0.19.0
+  url_launcher: 5.7.10
+  google_maps_flutter: 1.2.0
+  location: ^2.3.3
+  flutter_launcher_icons: 0.7.2+1
+  flutter_launcher_name: 0.0.1
+  flutter_qiblah: 1.0.3+1
+  intl:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icons/icon3.png"
 
+flutter_launcher_name:
+  name: "An-Noor"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -46,15 +65,54 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/
     - assets/mos.png
     - assets/qur.png
+    - assets/bkash.png
+    - assets/nogod.png
     - assets/watch.png
     - assets/qib.png
     - assets/hadit.png
+    - assets/ok.png
     - assets/com.png
     - assets/dua.png
     - assets/namj.png
-    - assets/tasbih.png
+    - assets/comu.png
+    - assets/tas.png
+    - assets/donate.png
+    - assets/don.png
+    - assets/gum.jpg
+    - assets/pic1.jpg
+    - assets/pic0.jpg
+    - assets/pic3.jpg
+    - assets/pic4.jpg
+    - assets/pic5.jpg
+    - assets/pic6.jpg
+    - assets/pic70.jpg
+    - assets/pic8.jpg
+    - assets/pic9.jpg
+    - assets/pic10.jpg
+    - assets/pic11.jpg
+    - assets/pic12.jpg
+    - assets/pic13.jpg
+    - assets/hariken.png
+    - assets/audio.png
+    - assets/asar.jpg
+    - assets/atteen.jpg
+    - assets/fatiha.jpg
+    - assets/fil.jpg
+    - assets/ibrahim.jpg
+    - assets/ikhlas.jpg
+    - assets/kafirun.jpg
+    - assets/kawser.jpg
+    - assets/kunut.jpg
+    - assets/kuraish.jpg
+    - assets/lahab.jpg
+    - assets/masura.jpg
+    - assets/nas.jpg
+    - assets/sana.jpg
+    - assets/attahiatu.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
